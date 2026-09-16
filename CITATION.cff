@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the article and this repository."
+title: "REM-θ-framework — Lorentz Boost θ-Parametrization & Gravitational Interferometry: Simulation Code"
+authors:
+  - family-names: "Reis"
+    given-names: "Luís Gustavo Costa"
+version: 1.0.0
+date-released: 2026-09-13
+repository-code: "https://github.com/USERNAME/rem-theta-boost-interferometry"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Relativistic electromagnetic mass: applications to the Lorentz boost and gravitational quantum interferometry"
+  authors:
+    - family-names: "Reis"
+      given-names: "Luís Gustavo Costa"
+  year: 2026
+  # doi: "10.xxxx/xxxxx"   # add once assigned
+  # url: "https://arxiv.org/abs/xxxx.xxxxx"   # add once posted
