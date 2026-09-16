@@ -74,7 +74,15 @@ arctan(λ_C/λ_dB)):
 **Note on benchmark numbers:** speedup and timing results are
 hardware-dependent. Re-run `lorentz_theta_complete.py` on your own machine
 before citing specific numbers — do not assume the values in the article
-match your hardware.
+match your hardware. The figures below were generated on the author's own
+machine; re-run the script to reproduce them on yours.
+
+<p align="center">
+  <img src="lorentz_boost/figures/figA1_equivalence_stability.png" width="90%"><br>
+  <img src="lorentz_boost/figures/figA2_performance.png" width="90%"><br>
+  <img src="lorentz_boost/figures/figA3_heatmaps.png" width="90%"><br>
+  <img src="lorentz_boost/figures/figA4_validation.png" width="90%">
+</p>
 
 ---
 
@@ -100,6 +108,11 @@ python cow_simulation_final.py
 
 Output: `figures/cow_fig_neutron.png`, `figures/cow_fig_electron_photon.png`,
 and `cow_results.txt` (numerical summary).
+
+<p align="center">
+  <img src="gravitational_interferometry/figures/cow_fig_neutron.png" width="90%"><br>
+  <img src="gravitational_interferometry/figures/cow_fig_electron_photon.png" width="90%">
+</p>
 
 ### Data
 
