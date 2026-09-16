@@ -376,7 +376,7 @@ def fig_validation(outdir):
 
     tests = ["Metric\n" + r"$\Lambda(\theta)^\top\eta\,\Lambda(\theta)=\eta$",
              "Group\n" + r"$\Lambda_1(\theta)\Lambda_2(\theta)=\Lambda_{\rm res}(\theta)$",
-             "Inverse\n" + r"$\Lambda(\theta)\,\Lambda(\theta)^{-1}=I_4$"]
+             "Inverse\n" + r"$\Lambda(\theta)\,\Lambda(-\theta)=I_4$"]
 
     fig, axes = plt.subplots(1, 3, figsize=(14, 5))
 
@@ -428,7 +428,7 @@ def fig_validation(outdir):
 
     fig.suptitle(
         r"Validation of the $\theta$-parametrization tensor $\Lambda(\theta)$ "
-        "\n"
+        "(this work) — not the standard boost\n"
         "6 boost directions × 3 velocities, all errors at machine "
         "precision (float64)",
         fontsize=11, fontweight="bold")
