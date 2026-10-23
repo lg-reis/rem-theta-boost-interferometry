@@ -4,9 +4,9 @@ title: "REM-θ-framework — Lorentz Boost θ-Parametrization & Gravitational In
 authors:
   - family-names: "Reis"
     given-names: "Luís Gustavo Costa"
-version: 1.0.0
-date-released: 2026-09-13
-repository-code: "https://github.com/USERNAME/rem-theta-boost-interferometry"
+version: 1.8.0
+date-released: 2026-10-22
+repository-code: "https://github.com/lg-reis/rem-theta-boost-interferometry"
 license: MIT
 preferred-citation:
   type: article
